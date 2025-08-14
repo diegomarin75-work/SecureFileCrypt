@@ -1,7 +1,6 @@
 #Import libraries
 import os
 import re
-import sys
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM

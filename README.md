@@ -51,6 +51,26 @@ else:
   print("File decrypted successfully!")
 ```
 
+## Command line tool
+
+On the command line the library can be called with the following arguments:
+
+```
+Usage: sfcrypt <input_file> <output_file> (--encrypt|--decrypt) (--pw:<password>|--ev:<envvar>)
+
+<input_filename>  : Input file for encryption or decryption
+
+<output_filename> : Encrypted / decrypted file to produce
+
+--encrypt           : Encryption mode
+
+--decrypt           : Decryption mode
+
+--pw:<password>   : Password for encryption/decription
+
+--ev:<envvar>     : Get password for encryption / decryption from an environment variable
+```
+
 ## API Reference
 
 ### `EncryptData(input_file, password)`
@@ -92,3 +112,7 @@ Returns:
 ## License
 
 MIT License — do anything with it, but no warranty.
+
+## Changelog
+
+```{include} CHANGELOG.md
