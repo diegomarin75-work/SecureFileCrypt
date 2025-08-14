@@ -115,4 +115,4 @@ MIT License — do anything with it, but no warranty.
 
 ## Changelog
 
-```{include} CHANGELOG.md
+See the full changelog [here](https://github.com/diegomarin75-work/SecureFileCrypt/blob/main/CHANGELOG.md).
