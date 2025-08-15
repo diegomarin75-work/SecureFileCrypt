@@ -8,7 +8,7 @@ from securefilecrypt import __version__,EncryptFile,DecryptFile
 def ShowHelp():
   print("Secure encryption / decryption tool - v"+__version__+" - Diego Marin 2025")
   print("")
-  print("Usage: python sfcrypt.py <input_file> <output_file> (--encrypt|--decrypt) (--pw:<password>|--ev:<envvar>)")
+  print("Usage: sfcrypt <input_file> <output_file> (--encrypt|--decrypt) (--pw:<password>|--ev:<envvar>)")
   print("")
   print("<input_filename>  : File read for encryption or decryption")
   print("<output_filename> : Encrypted / decrypted file to produce")

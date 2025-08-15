@@ -7,7 +7,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 #Library version
-__version__ = "0.1.6"
+__version__ = "0.1.7"
 
 #Encryption constants
 _MIN_PASSWORD_LENGTH=12
