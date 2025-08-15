@@ -1,7 +1,6 @@
 #Import libraries
 import sys
-from securefilecrypt.securefilecript import *
-from securefilecrypt import __version__
+from securefilecrypt import __version__,EncryptFile,DecryptFile
 
 #----------------------------------------------------------------------------------------------------------------------
 # Show help
